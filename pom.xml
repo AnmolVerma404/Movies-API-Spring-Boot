@@ -5,14 +5,14 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.0.3</version>
+		<version>3.1.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.anmolverma404</groupId>
+	<groupId>dev.anmol</groupId>
 	<artifactId>movies</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>movies</name>
-	<description>A simple API realated to Movies</description>
+	<description>A simple API related to movies</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -41,11 +41,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>me.paulschwarz</groupId>
-			<artifactId>spring-dotenv</artifactId>
-			<version>2.5.4</version>
 		</dependency>
 	</dependencies>
 

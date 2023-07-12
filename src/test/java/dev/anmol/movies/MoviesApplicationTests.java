@@ -1,4 +1,4 @@
-package com.anmolverma404.movies;
+package dev.anmol.movies;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
